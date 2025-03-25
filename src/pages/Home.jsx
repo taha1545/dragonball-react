@@ -1,5 +1,5 @@
 import Nav from "../component/Nav";
-import "./home.css";
+import "./Home.css";
 import CharacterCard from "../component/CustomCardHeader";
 import { useState, useEffect } from "react";
 import Singlecard from "../component/Singlecard";
