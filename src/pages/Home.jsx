@@ -112,7 +112,7 @@ function Home() {
                     ) : err ? (
                         <p className="text-red-500 text-xl text-center">{err}</p>
                     ) : (
-                        <div className="grid grid-cols-1 pl-[20%] lg:pl-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 pl-[12%] lg:pl-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
                             {char.map((data) => (
                                 <CharacterCard
                                     onClick={() => Getsinglechakter(data.id)}
