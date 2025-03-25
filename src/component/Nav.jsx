@@ -7,7 +7,7 @@ function Nav() {
                 <h3 className="font-extrabold text-xl lg:text-3xl">DragonBall Review</h3>
             </div>
 
-            <ul className="flex flex-row justify-between w-[20%] gap-5 ml-[12%] text-white text-lg lg:text-xl font-medium">
+            <ul className="flex flex-row justify-between w-[20%] gap-5 lg:ml-[12%]  ml-[2%] text-white text-lg lg:text-xl font-medium">
                 <li className="hover:text-gray-300 cursor-grab">Planets</li>
                 <li className="hover:text-gray-300 cursor-grab">All</li>
                 <li className="hover:text-gray-300 cursor-grab">Support</li>
